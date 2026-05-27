@@ -1,7 +1,9 @@
-import KaboomGame from "@/game/KaboomGame";
+import KaboomGame from "./game/KaboomGame"
 
-function App() {
-  return <KaboomGame />;
+export default function App() {
+  return (
+    <div style={{ width: "100vw", height: "100vh", overflow: "hidden" }}>
+      <KaboomGame />
+    </div>
+  )
 }
-
-export default App;
